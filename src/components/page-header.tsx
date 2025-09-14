@@ -5,8 +5,8 @@ const PageHeader = () => {
         Captive Portal Manager
       </h1>
       <p className="mt-4 text-lg leading-8 text-muted-foreground max-w-2xl mx-auto">
-        Easily manage guest accounts for your captive portal. Add new users,
-        view existing accounts, and generate unique MAC addresses with AI.
+        Easily manage guest accounts for your captive portal. Add new users and
+        view existing accounts.
       </p>
     </div>
   );

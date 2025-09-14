@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { initialUsers } from '@/lib/data';
 import type { User, AddUserFormValues } from '@/lib/types';
 import AddUserForm from '@/components/add-user-form';
@@ -9,11 +9,6 @@ import PageHeader from '@/components/page-header';
 
 export default function Home() {
   const [users, setUsers] = useState<User[]>(initialUsers);
-
-  const existingMacAddresses = useMemo(
-    () => users.map(user => user.macAddress).filter(Boolean) as string[],
-    [users]
-  );
 
   const handleAddUser = (data: AddUserFormValues) => {
     const newUser: User = {
@@ -35,10 +30,7 @@ export default function Home() {
         <PageHeader />
         <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-5">
           <div className="lg:col-span-2">
-            <AddUserForm
-              onAddUser={handleAddUser}
-              existingMacAddresses={existingMacAddresses}
-            />
+            <AddUserForm onAddUser={handleAddUser} />
           </div>
           <div className="lg:col-span-3">
             <UserList users={users} onDeleteUser={handleDeleteUser} />
