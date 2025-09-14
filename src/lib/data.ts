@@ -4,7 +4,7 @@ export const initialUsers: User[] = [
   {
     id: 'e5f6g7h8',
     username: 'guestuser',
-    password: 'ph4hhw0rD!',
+    password: 'ph4hhw0rDd',
     timeout: 1200,
     macAddress: '',
     uploadLimitBites: 625000,
