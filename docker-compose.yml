@@ -6,15 +6,14 @@ services:
     environment:
       - NODE_ENV=production
       # Select storage provider: memory | file | couchdb
-      - STORAGE_PROVIDER=couchdb
+      - STORAGE_PROVIDER=file
       # File storage settings (only used when STORAGE_PROVIDER=file)
-      - USERS_FILE_PATH=/data/users.json
+      - USERS_FILE_PATH=./data/users.json
       # CouchDB settings (only used when STORAGE_PROVIDER=couchdb)
-      - COUCHDB_URL=http://admin:password@couchdb:5984
+      - COUCHDB_URL=couchdb:5984
       - COUCHDB_DB=users
     volumes:
-      # Persist users.json when using file storage
-      - ./data:/data
+      - ./data:/app/data
     depends_on:
       - couchdb
   couchdb:
@@ -27,8 +26,6 @@ services:
       - "5984:5984"
     volumes:
       - couchdb_data:/opt/couchdb/data
-    links:
-      - web
 
 volumes:
   couchdb_data:
